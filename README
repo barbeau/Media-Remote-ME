@@ -16,9 +16,14 @@ All projects
 
 --== FOLDERS ==--
 
-MobileiTunesClient            - Java ME Mobile app for a mobile phone that sends media commands to the server running on same machine as media player
-YahooLaunchCastController     - Desktop Library project that implements control of YahooLaunchCast streaming music player via Java Robot API, which triggers cursor movement and clicks.
-iTunesController	      - Desktop Library project that implements control of iTunes via the iTunes COM for Windows SDK
-iTunesServer		      - Java server app, deployable to Glassfish, which listens for commands from the MobileiTunesClient mobile app and passes these commands to the different media controllers
-mobile_images		      - A folder which contains images for the mobile GUI that shows play, volume, next/prev track buttons
+MobileiTunesClient            - Java ME Mobile app for a mobile phone that sends media commands to iTunesServer app
+				hosted in a Java app server (e.g., Glassfish) running on same machine as media player
+YahooLaunchCastController     - Desktop Library project that implements control of YahooLaunchCast streaming music player 
+				via Java Robot API, which triggers cursor movement and clicks.
+iTunesController	      - Desktop Library project that implements control of iTunes via the iTunes COM for 
+				Windows SDK
+iTunesServer		      - Java server app, deployable to Glassfish, which listens for commands from the 
+				MobileiTunesClient mobile app and passes these commands to the different media controllers
+mobile_images		      - A folder which contains images for the mobile GUI that shows play, volume, next/prev 
+				track buttons
 
