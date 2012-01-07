@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+<system systemId="http://localhost:8080/iTunesServer/SubmitCommandService?wsdl" uri="xml-resources/web-service-references/SubmitCommandService/wsdl/localhost_8080/iTunesServer/SubmitCommandService.wsdl"/>
+
+
+
+<system systemId="http://SeansComp:8080/iTunesServer/SubmitCommandService?WSDL" uri="xml-resources/web-service-references/SubmitCommandService/wsdl/SeansComp_8080/iTunesServer/SubmitCommandService.wsdl"/>
+<system systemId="http://SeansComp:8080/iTunesServer/SubmitCommandService/__container$publishing$subctx/WEB-INF/wsdl/SubmitCommandService_schema1.xsd" uri="xml-resources/web-service-references/SubmitCommandService/wsdl/SeansComp_8080/iTunesServer/SubmitCommandService/__container_publishing_subctx/WEB-INF/wsdl/SubmitCommandService_schema1.xsd"/>
+</catalog>
