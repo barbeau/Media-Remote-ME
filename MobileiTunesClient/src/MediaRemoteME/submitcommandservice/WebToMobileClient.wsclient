@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsclientconfig serviceType="class" version="1.0">
+    <client>
+        <project>MobileiTunesClient</project>
+        <class location="${src.dir}" type="submitcommandservice.WebToMobileClient"/>
+        <property name="DataBinding" value="false"/>
+        <property name="floatingPoint" value="true"/>
+        <property name="trace" value="false"/>
+        <property name="multipleCall" value="false"/>
+        <property name="createStubs" value="true"/>
+    </client>
+    <server>
+        <project path="">iTunesServer</project>
+        <class location="${src.dir}" mapping="" type="MediaRemoteME.iTunesServer.WebToMobileServlet"/>
+    </server>
+    <services>
+        <service>
+            <class type="MediaRemoteME.iTunesServer.SubmitCommand">
+                <method name="SubmitCommand">
+                    <return type="java.lang.String"/>
+                    <param name="command" type="java.lang.String"/>
+                </method>
+            </class>
+        </service>
+    </services>
+</wsclientconfig>
