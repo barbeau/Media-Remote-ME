@@ -16,14 +16,14 @@ https://github.com/barbeau/Media-Remote-ME/wiki
 
 ### FOLDERS
 
-1. /MobileiTunesClient        - Java ME Mobile app for a mobile phone that sends media commands to iTunesServer app
+1. `/MobileiTunesClient`        - Java ME Mobile app for a mobile phone that sends media commands to iTunesServer app
 				hosted in a Java app server (e.g., Glassfish) running on same machine as media player
-2. /YahooLaunchCastController - Desktop Library project that implements control of YahooLaunchCast streaming music player 
+2. `/YahooLaunchCastController` - Desktop Library project that implements control of YahooLaunchCast streaming music player 
 				via Java Robot API, which triggers cursor movement and clicks.
-3. /iTunesController	      - Desktop Library project that implements control of iTunes via the iTunes COM for 
+3. `/iTunesController`	      - Desktop Library project that implements control of iTunes via the iTunes COM for 
 				Windows SDK
-4. /iTunesServer	      - Java server app, deployable to Glassfish, which listens for commands from the 
+4. `/iTunesServer`	      - Java server app, deployable to Glassfish, which listens for commands from the 
 				MobileiTunesClient mobile app and passes these commands to the different media controllers
-5. /mobile_images	      - A folder which contains images for the mobile GUI that shows play, volume, next/prev 
+5. `/mobile_images`	      - A folder which contains images for the mobile GUI that shows play, volume, next/prev 
 				track buttons
 
