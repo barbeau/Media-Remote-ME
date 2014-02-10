@@ -27,3 +27,7 @@ https://github.com/barbeau/Media-Remote-ME/wiki
 5. `/mobile_images`	      - A folder which contains images for the mobile GUI that shows play, volume, next/prev 
 				track buttons
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/barbeau/media-remote-me/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
